@@ -1,6 +1,6 @@
 # Robot Path Visualizer (Pygame)
 
-This project demonstrates a tiny Python app that replays a precomputed robot trajectory `(x, y, θ)` using **Pygame** and **NumPy**. It rotates a robot sprite along the path and draws a trail—handy for quick demos and visual debugging of differential-drive motion.
+This project demonstrates a tiny Python app that replays a precomputed robot trajectory `(x, y, θ)` using **Pygame** and **NumPy**. It rotates a robot sprite along the path and draws a trail, handy for quick demos and visual debugging of differential-drive motion.
 
 ## Summary
 - Loads `simulationData.npy` → shape **(N, 3)** as columns: **x**, **y**, **theta_rad**.
