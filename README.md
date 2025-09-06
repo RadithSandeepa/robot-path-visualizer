@@ -36,6 +36,12 @@ This project demonstrates a tiny Python app that replays a precomputed robot tra
 > **Coordinate system:** Pygame’s origin is top-left, **y increases downward**.  
 > If you want a math-style y-up view, pre-flip `y` in your data before saving.
 
+## Screenshots
+
+![Run1](https://github.com/RadithSandeepa/robot-path-visualizer/blob/main/Images/Img_1.png)
+
+![Run2](https://github.com/RadithSandeepa/robot-path-visualizer/blob/main/Images/Img_2.png)
+
 ## Requirements
 ```bash
 python -m pip install -r requirements.txt
@@ -63,3 +69,5 @@ python simulation_DDRobot.py
 - Column 0 → x (pixels)
 - Column 1 → y (pixels)
 - Column 2 → theta (radians)
+
+![Diagram](https://github.com/RadithSandeepa/robot-path-visualizer/blob/main/Images/Img_3.png)
